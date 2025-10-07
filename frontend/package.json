@@ -1,0 +1,49 @@
+{
+  "name": "rezervacije-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@stomp/stompjs": "^7.0.0",
+    "cra-template": "1.2.0",
+    "framer-motion": "^12.0.11",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.82.0",
+    "sockjs-client": "^1.6.1",
+    "web-vitals": "^4.2.4",
+    "webpack-manifest-plugin": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
